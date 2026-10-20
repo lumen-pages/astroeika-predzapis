@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Предзапись на интенсив «Астрология жизни»</title>
+<meta name="description" content="Предзапись на декабрьский поток интенсива «Астрология жизни». Старт 1 декабря.">
+<meta property="og:title" content="Предзапись на интенсив «Астрология жизни»">
+<meta property="og:description" content="Декабрьский поток, старт 1 декабря. Заполните анкету, и мы напишем вам в телеграм.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#14202B; --body:#3A4550; --muted:#6B7683;
+    --blue:#3E74A8; --blue-light:#88B9E7; --blue-pale:#F4F9FD; --line:#E3EDF6;
+    --gold:#C9A961;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#fff;color:var(--ink);font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:720px;margin:0 auto;padding:0 20px}
+  h1,h2,h3,.disp{font-family:Cormorant,Georgia,serif;font-weight:600;color:var(--ink);margin:0}
+  a{color:var(--blue)}
+  .eyebrow{font-family:Cormorant,Georgia,serif;font-size:18px;letter-spacing:.16em;text-transform:uppercase;color:var(--blue)}
+  header{border-bottom:1px solid var(--line)}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:18px}
+  .logo{font-family:Cormorant,Georgia,serif;font-size:22px;letter-spacing:.14em}
+  .hero{padding:48px 0 8px}
+  h1{font-size:44px;line-height:1.12;margin:14px 0 18px}
+  .lead{font-size:19px;color:var(--body);margin:0 0 22px}
+  .facts{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin:0 0 26px}
+  .facts span{font-family:Cormorant,Georgia,serif;font-size:20px;letter-spacing:.04em}
+  .dot{width:5px;height:5px;border-radius:3px;background:var(--gold);display:inline-block}
+  .btn{display:inline-block;width:100%;text-align:center;padding:19px 32px;background:var(--blue);color:#fff;text-decoration:none;font-family:Cormorant,Georgia,serif;font-size:24px;letter-spacing:.04em;border:none;border-radius:32px;cursor:pointer}
+  .btn:hover{background:#30608F;color:#fff}
+  .btn[disabled]{opacity:.6;cursor:default}
+  .note{font-size:15px;color:var(--muted);margin:12px 0 0;text-align:center}
+  .orn{display:flex;align-items:center;justify-content:center;gap:14px;margin:44px 0 28px}
+  .orn i{display:block;width:70px;height:1px;background:#E1CFA4}
+  .orn svg{display:block}
+  section{padding:8px 0}
+  .pale{background:var(--blue-pale);padding:40px 0;margin:44px 0 0}
+  h2{font-size:30px;line-height:1.2;margin:0 0 20px}
+  .quote{border-left:3px solid var(--blue-light);padding:2px 0 2px 18px;margin:0 0 18px;color:var(--body)}
+  .steps{counter-reset:s;margin:0;padding:0;list-style:none}
+  .steps li{counter-increment:s;position:relative;padding:0 0 18px 48px}
+  .steps li:before{content:counter(s);position:absolute;left:0;top:-4px;font-family:Cormorant,Georgia,serif;font-size:30px;color:var(--gold)}
+  form{margin:28px 0 0}
+  .field{margin:0 0 20px}
+  label{display:block;font-size:15px;color:var(--muted);margin:0 0 7px}
+  input[type=text],input[type=date],select,textarea{width:100%;padding:14px 15px;font-family:Georgia,serif;font-size:17px;color:var(--ink);background:#fff;border:1px solid #C9DCEE;border-radius:8px;min-height:52px}
+  textarea{min-height:110px;resize:vertical}
+  input:focus,select:focus,textarea:focus{outline:2px solid var(--blue-light);outline-offset:1px}
+  .hint{font-size:14px;color:var(--muted);margin:6px 0 0}
+  .check{display:flex;gap:12px;align-items:flex-start;margin:0 0 22px}
+  .check input{width:22px;height:22px;margin-top:2px;accent-color:var(--blue);flex-shrink:0}
+  .check label{font-size:15px;color:var(--muted);margin:0}
+  .err{display:none;background:#FDF0EC;border:1px solid #E7BDAE;color:#8E3E23;border-radius:8px;padding:12px 14px;font-size:15px;margin:0 0 16px}
+  .err.on{display:block}
+  #thanks{display:none;background:var(--blue-pale);border:1px solid var(--line);border-radius:12px;padding:32px 26px;text-align:center}
+  #thanks.on{display:block}
+  #thanks h2{margin-bottom:12px}
+  footer{border-top:1px solid var(--line);margin-top:56px;padding:24px 0 40px;color:var(--muted);font-size:15px}
+  footer .wrap{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between}
+  @media (max-width:600px){
+    h1{font-size:34px}
+    h2{font-size:26px}
+    .hero{padding-top:34px}
+    body{font-size:16px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="logo">ASTROEIKA</div>
+    <div class="eyebrow" style="font-size:15px">Старт 1 декабря</div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="hero">
+    <div class="eyebrow">Интенсив «Астрология жизни»</div>
+    <h1>Предзапись на декабрьский поток</h1>
+    <div class="facts">
+      <span>Старт 1 декабря</span><i class="dot"></i>
+      <span>8 недель</span><i class="dot"></i>
+      <span>8 модулей</span>
+    </div>
+    <p class="lead">Заполните анкету, и мы напишем вам в телеграм: расскажем, как устроен поток, ответим на вопросы и поможем понять, ваше это или нет. Предзапись ни к чему не обязывает.</p>
+    <a class="btn" href="#anketa">Заполнить анкету</a>
+    <p class="note">Две минуты, пять вопросов</p>
+  </div>
+
+  <div class="orn"><i></i><svg width="13" height="13" viewBox="0 0 14 14" aria-hidden="true"><path d="M7 0l1.6 5.4L14 7l-5.4 1.6L7 14l-1.6-5.4L0 7l5.4-1.6z" fill="#C9A961"/></svg><i></i></div>
+
+  <section>
+    <h2>Кому это</h2>
+    <p class="quote">«Этот выбор я уже раз сто прожила в голове. В январе написала список и не сделала ни одного пункта».</p>
+    <p class="quote">«Работа неплохая, ипотека, муж не пьет, ребенок здоровый. А просыпаюсь и первое, что думаю, это "опять"».</p>
+    <p class="quote">«Три приложения с гороскопами, пять астрологов в подписках, таролог. И везде одно: период трансформации, доверьтесь потоку».</p>
+    <p style="color:var(--body)">На интенсиве вы разбираетесь в своей карте сами: что у вас за период, сколько он длится и какие решения в нем лучше не принимать.</p>
+  </section>
+
+</div>
+
+<div class="pale">
+  <div class="wrap">
+    <h2>Как это будет</h2>
+    <ol class="steps">
+      <li>Вы заполняете анкету. Это две минуты и ни к чему не обязывает.</li>
+      <li>Мы пишем вам в телеграм: программа, формат, расписание, ответы на вопросы.</li>
+      <li>Если понимаете, что это ваше, занимаете место на потоке до открытия общих продаж.</li>
+    </ol>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section id="anketa" style="padding-top:44px">
+    <h2>Анкета предзаписи</h2>
+    <p style="color:var(--body);margin-top:0">Данные нужны, чтобы перед разговором посмотреть вашу карту и говорить про вас, а не вообще.</p>
+
+    <div class="err" id="err"></div>
+
+    <form id="form" novalidate>
+      <div class="field">
+        <label for="name">Как вас зовут</label>
+        <input type="text" id="name" name="name" autocomplete="name" required>
+      </div>
+
+      <div class="field">
+        <label for="tg">Ник в телеграме</label>
+        <input type="text" id="tg" name="tg" placeholder="@nickname" autocomplete="username" required>
+        <p class="hint">Напишем вам именно сюда. Проверьте, что ник указан верно.</p>
+      </div>
+
+      <div class="field">
+        <label for="bdate">Дата рождения</label>
+        <input type="date" id="bdate" name="bdate" required>
+      </div>
+
+      <div class="field">
+        <label for="request">С чем хотите разобраться в первую очередь</label>
+        <textarea id="request" name="request" required placeholder="Своими словами, как подруге. Например: третий год не могу решиться на переезд"></textarea>
+      </div>
+
+      <div class="field">
+        <label for="level">Ваш опыт в астрологии</label>
+        <select id="level" name="level" required>
+          <option value="">Выберите вариант</option>
+          <option>Совсем новичок, знаю только свой знак</option>
+          <option>Читаю и слушаю, но свою карту не разбирала</option>
+          <option>Была на разборах у астрологов</option>
+          <option>Учусь или училась сама</option>
+        </select>
+      </div>
+
+      <div class="check">
+        <input type="checkbox" id="agree" name="agree" required>
+        <label for="agree">Согласна на обработку персональных данных и получение сообщений в телеграме</label>
+      </div>
+
+      <button class="btn" type="submit" id="submit">Отправить анкету</button>
+      <p class="note">Мы не звоним и не пишем в другие мессенджеры</p>
+    </form>
+
+    <div id="thanks">
+      <h2>Анкета у нас</h2>
+      <p style="color:var(--body);margin:0">Спасибо, <span id="thanksName">спасибо</span>. Напишем вам в телеграм на ник, который вы оставили: расскажем про поток и ответим на вопросы. Обычно отвечаем в течение дня.</p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div>Интенсив «Астрология жизни» · AstroEika</div>
+    <div><a href="https://t.me/astroassistent_AstroEika">Написать в телеграм</a></div>
+  </div>
+</footer>
+
+<script>
+  // Сюда вставить адрес веб-приложения Google Apps Script (заканчивается на /exec)
+  var ENDPOINT = "ВСТАВЬТЕ_СЮДА_ССЫЛКУ_APPS_SCRIPT";
+
+  var form = document.getElementById('form');
+  var errBox = document.getElementById('err');
+  var btn = document.getElementById('submit');
+
+  function showError(text){
+    errBox.textContent = text;
+    errBox.classList.add('on');
+    errBox.scrollIntoView({behavior:'smooth', block:'center'});
+  }
+
+  function params(){
+    var out = {};
+    location.search.replace(/^\?/,'').split('&').forEach(function(p){
+      if(!p) return;
+      var kv = p.split('=');
+      out[decodeURIComponent(kv[0])] = decodeURIComponent((kv[1]||'').replace(/\+/g,' '));
+    });
+    return out;
+  }
+
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    errBox.classList.remove('on');
+
+    var name = document.getElementById('name').value.trim();
+    var tg = document.getElementById('tg').value.trim();
+    var bdate = document.getElementById('bdate').value;
+    var request = document.getElementById('request').value.trim();
+    var level = document.getElementById('level').value;
+    var agree = document.getElementById('agree').checked;
+
+    if(name.length < 2) return showError('Напишите, как вас зовут');
+    if(tg.length < 2) return showError('Укажите ник в телеграме, например @nickname');
+    if(!bdate) return showError('Укажите дату рождения');
+    if(request.length < 5) return showError('Напишите пару слов о том, с чем хотите разобраться');
+    if(!level) return showError('Выберите ваш опыт в астрологии');
+    if(!agree) return showError('Нужно согласие на обработку данных');
+
+    if(tg.indexOf('@') !== 0 && tg.indexOf('t.me/') === -1) tg = '@' + tg.replace(/^@/,'');
+
+    var utm = params();
+    var data = {
+      name: name,
+      tg: tg,
+      bdate: bdate,
+      request: request,
+      level: level,
+      source: utm.utm_source || utm.source || document.referrer || 'прямой заход',
+      page: location.href
+    };
+
+    btn.disabled = true;
+    btn.textContent = 'Отправляем...';
+
+    fetch(ENDPOINT, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: {'Content-Type': 'text/plain;charset=utf-8'},
+      body: JSON.stringify(data)
+    }).then(function(){
+      done(name);
+    }).catch(function(){
+      btn.disabled = false;
+      btn.textContent = 'Отправить анкету';
+      showError('Не получилось отправить. Проверьте интернет и попробуйте еще раз или напишите нам в телеграм @astroassistent_AstroEika');
+    });
+  });
+
+  function done(name){
+    document.getElementById('thanksName').textContent = name;
+    form.style.display = 'none';
+    document.getElementById('thanks').classList.add('on');
+    document.getElementById('thanks').scrollIntoView({behavior:'smooth', block:'center'});
+  }
+</script>
+
+</body>
+</html>
